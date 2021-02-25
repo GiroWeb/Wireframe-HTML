@@ -1,0 +1,101 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #e6e7e9;
+    
+}
+
+header{
+    box-sizing: border-box;
+    padding-left: 31px;
+    padding-right: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 120px;
+    margin-bottom: 21px;
+    background-color: #4b4b4d;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    background-color: #d2d3d5;
+}
+
+.contenedor-circulos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 141px;
+    height: 60px;
+}
+
+.circulo {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background-color: #e6e7e9;
+}
+
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;;
+    height: 48px;
+    margin-bottom: 25px;
+
+}
+
+.item-nav{
+
+    width: 198px;
+    height: 48px;
+    background-color: #97989a;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;;
+    height: 192px;
+    margin-bottom: 24px;
+}
+
+article {
+
+    width: 329px;
+    height: 192px;
+    background-color: #97989a;
+
+}
+
+main{
+    display: flex;
+    width: 1000px;;
+    height: 453px;
+    margin-bottom: 24px;
+}
+
+.main-lateral{
+    width: 200px;
+    height: 453px;
+    background-color: #858688;
+
+}
+
+.main-central{
+    width: 600px;
+    height: 453px;
+    background-color: #4b4b4d;
+
+}
+
+footer{
+    width: 1000px;
+    height: 71px;
+    background-color: #4b4b4d;
+}
